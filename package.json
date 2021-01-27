@@ -1,6 +1,6 @@
 {
     "name": "react-page-progress-bar",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "Sayfadaki konumu dairesel bir progress bar'da gösterir ve tıklanıldığında en üste çıkar",
     "author": {
         "name": "Ömer Gülçiçek",

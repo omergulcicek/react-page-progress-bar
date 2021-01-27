@@ -33,7 +33,7 @@ export default function PageProgressBar ({ options }) {
 
         ls = cs
       });
-    }
+    }, []
   )
   
   const pageProgress = () => {
