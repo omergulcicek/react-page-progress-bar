@@ -24,6 +24,33 @@ import PageProgressBar from "react-page-progress-bar";
 <PageProgressBar options={{ "color": "#26a69a", "size": "80px" }} />
 ```
 
+## CSS
+
+**Önemli**: CSS kodlarını projenize eklemeyi unutmayın!
+
+```css
+#page-progress-bar {
+  border: none;
+  border-radius: 100%;
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  transform: scale(0.8);
+  transition: 240ms;
+  z-index: 10;
+}
+
+@media (min-width: 992px) {
+  #page-progress-bar.is-active {
+    opacity: 1;
+    pointer-events: all;
+    transform: scale(1)
+  }
+}
+```
+
 ## Özelleştir
 
 **Sadece** değiştirmek istediğiniz değerleri göndermeniz yeterlidir. Hiçbir parametre göndermezseniz veya bazılarını yazmazsanız varsayılan olarak çalışacak ayarlar aşağıdaki gibidir;

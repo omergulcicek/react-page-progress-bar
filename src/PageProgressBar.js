@@ -1,5 +1,4 @@
 import React, { useEffect } from "react"
-import "./PageProgressBar.css"
 
 export default function PageProgressBar ({ options }) {
   useEffect(
