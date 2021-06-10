@@ -5,7 +5,7 @@ Sayfadaki konumu dairesel bir progress bar'da gösterir.
 `React` component şeklinde geliştirilmiştir, farklı kütüphanelerde çalışmaz.
 
 
-![react-page-progress-bar](http://omergulcicek.com/img/react-page-progress-bar.png)
+![react-page-progress-bar](http://omergulcicek.com/img/react-page-progress-bar.jpg)
 
 ## Yükle
 ```
